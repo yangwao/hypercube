@@ -1,7 +1,7 @@
 # hypercube
 aarch64 docker images for decentralized services soon™
 roadmap
- * scuttlebutt (easy-ssb)
+ * scuttlebutt ([staltz/easy-ssb-pub](https://github.com/staltz/easy-ssb-pub))
  * ipfs
  * bitcoin-core
  
