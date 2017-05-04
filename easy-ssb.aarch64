@@ -11,7 +11,7 @@ RUN apt-get install -y libleveldb-dev
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 6.9.1
 
-RUN apt-get install -y git curl libc6 libcurl3 zlib1g libtool autoconf
+RUN apt-get install -y git curl libc6 libcurl3 zlib1g libtool autoconf build-essential
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 ENV NVM_DIR $HOME/.nvm
