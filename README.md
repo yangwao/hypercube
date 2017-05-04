@@ -9,6 +9,8 @@ roadmap
 ```
 git clone https://github.com/staltz/easy-ssb-pub
 docker-compose build
-docker push easy-ssb-pub
+docker images 
+docker tag b40fe3b167aa yangwao/easy-ssb-pub-aarch64
+docker push yangwao/easy-ssb-pub-aarch64
 ```
 
