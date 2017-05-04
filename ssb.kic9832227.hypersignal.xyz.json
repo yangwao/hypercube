@@ -1,0 +1,12 @@
+{
+  "name": "KIC 9832227",
+  "constellation": "Cygnus",
+  "RotationalVelocityA": 149.7,
+  "RotationalVelocityB": 84.7,
+  "experimental": "highly",
+  "arch": "aarch64",
+  "BogoMIPS": 200,
+  "hostname": "ssb.kic9832227.hypersignal.xyz",
+  "public": "@rt2KFSPvl5FVcnLbAAD9eTBK8J6ml0exR9BjqIhh87Y=.ed25519",
+  "maintainer": "@yangwao"
+}
