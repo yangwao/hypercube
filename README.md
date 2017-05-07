@@ -4,15 +4,18 @@ roadmap
  * scuttlebutt ([staltz/easy-ssb-pub](https://github.com/staltz/easy-ssb-pub))
  * ipfs
  * bitcoin-core
- 
-# how to run on AARCH64
+
+### background
+this idea is from previous project [ipfs-hypercube](https://github.com/yangwao/ipfs-hypercube/)
+
+### how to run on AARCH64
 
 ```
 apt-get install docker.io
 docker run -e "PUB_URL=ssb.kic9832227.hypersignal.xyz" -v $HOME/.ssb:/root/.ssb -p 80:80 -p 8008:8008 -p 8007:8007 --restart=unless-stopped --name ssb-pub -d yangwao/easy-ssb-pub-aarch64
 ```
 
-# easy-ssb docker image
+### easy-ssb docker image
 ```
 git clone https://github.com/staltz/easy-ssb-pub
 docker-compose build
