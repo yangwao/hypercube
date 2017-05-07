@@ -28,3 +28,5 @@ docker push yangwao/easy-ssb-pub-aarch64
 
 * get odroid c2, 4x1.5Ghz + 2G ram + 32G microsd + USB FIT 128G
 * set [watchdog on odroid-c2](http://odroid.com/dokuwiki/doku.php?id=en:c2_watchdog_timer)
+* $ echo echo "/dev/sda2 /mnt/fit ext4 rw,relatime,data=ordered 0 0" >> /etc/fstab
+* $ echo "{ "graph": "/mnt/fit/var/lib/docker" }" >> /etc/docker/daemon.json 
