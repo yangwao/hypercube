@@ -24,3 +24,7 @@ docker tag b40fe3b167aa yangwao/easy-ssb-pub-aarch64
 docker push yangwao/easy-ssb-pub-aarch64
 ```
 
+### starter pack
+
+* get odroid c2, 4x1.5Ghz + 2G ram + 32G microsd + USB FIT 128G
+* set [watchdog on odroid-c2](http://odroid.com/dokuwiki/doku.php?id=en:c2_watchdog_timer)
